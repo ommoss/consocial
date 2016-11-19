@@ -6,7 +6,6 @@ import Main from './main/Main.jsx'
 class App extends React.Component {
     constructor(props){
       super(props);
-      this.socket = new WebSocket("ws://localhost:4000");
     }
 
    render() {
